@@ -1,0 +1,26 @@
+{
+  "name": "content-tests",
+  "version": "1.19.3",
+  "private": true,
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Ivan Ganev <ganevio92@gmail.com>",
+  "scripts": {
+    "build": "gatsby clean && gatsby build",
+    "clean": "gatsby clean",
+    "serve": "gatsby clean && gatsby build && gatsby serve",
+    "start": "gatsby clean && gatsby develop"
+  },
+  "dependencies": {
+    "gatsby": "^2.18.7",
+    "gatsby-plugin-sitemap": "^2.2.21",
+    "gatsby-theme-chronoblog": "^0.21.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "engines": {
+    "node": ">=10.15.0"
+  },
+  "starter-name": "gatsby-starter-chronoblog-content-tests"
+}
